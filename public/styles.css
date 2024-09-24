@@ -1,0 +1,101 @@
+/* Admin Page - Styling */
+
+/* General styling for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Styling for the main container */
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+h2 {
+    color: #343a40;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #343a40;
+    color: white;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Complaint image thumbnail styling */
+.complaint-img {
+    max-width: 80px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.complaint-img:hover {
+    transform: scale(1.1);
+}
+
+/* Status badges */
+.badge-warning {
+    background-color: #ffc107;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+.badge-success {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+/* Buttons */
+button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Modal styling */
+.modal-body {
+    text-align: center;
+}
+
+.modal-body img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
